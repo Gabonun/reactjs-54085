@@ -1,0 +1,51 @@
+.item-count{
+    display: flex;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    padding: 0.8rem;
+    position: relative;
+}
+
+.item-count>.edit {
+    position: absolute;
+    left: 1.2rem;
+    bottom: 1.3rem;
+}
+
+.item-count>.edit>* {
+    border: 1px solid #dcd9d9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.6rem;
+    width: 2.5rem;
+    padding: 0.7rem;
+    color: #9d174d;
+    font-weight: bold;
+}
+
+.button-add{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    background-color: #00afef;
+    color: white;
+}
+
+.controls-count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.button-count{
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+}

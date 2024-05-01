@@ -1,0 +1,13 @@
+.order {
+    text-align: center;
+}
+
+.button-return {
+    margin: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00afef;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+}

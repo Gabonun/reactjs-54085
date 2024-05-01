@@ -1,0 +1,146 @@
+.cart {
+    margin: 50px 20px;
+}
+
+.cart>h2 {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.empty-cart {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-cart>.button-empty-cart {
+    margin: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00afef;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.product-cart{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 0 2px 0 #00afef;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    padding: 0.8rem;
+    position: relative;
+}
+
+.product-cart>.detail {
+    margin: 2.5rem;
+    font-size: 1rem;
+}
+
+.product-cart>.detail>.detail-brand {
+    margin-right: 1.3rem;
+}
+
+.product-cart>.detail>.detail-quantity {
+    margin-right: 1.3rem;
+}
+
+.product-cart>.detail>.detail-unitary-price {
+    margin-right: 1.3rem;
+}
+
+.product-cart>.price {
+    position: absolute;
+    bottom: 1rem;
+    right: 4rem;
+    font-size: 2.1rem;
+}
+
+.product-cart>.price>.peso-span {
+    color: #00afef;
+}
+
+.product-cart>.price>.button-empty-icon {
+    color: #00afef;
+    margin-left: 0.8rem;
+    font-size: 1.9rem;
+    position: absolute;
+    bottom: 0.8rem;
+}
+
+.product-cart>.price>.button-empty-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.image-product-cart{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 #00afef;
+    margin-bottom: 3rem;
+}
+
+.controls-cart{
+    padding: 20px 0;
+}
+
+.total-price {
+    width: 90%;
+    margin-left: 5%;
+
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.total-price>span {
+    font-size: 2.1rem;
+}
+
+.total-price>.left {
+    margin-right: 0.7rem;
+}
+
+.total-price>.peso {
+    color: #00afef;
+}
+
+.button-empty{
+    border: none;
+    border-radius: 10px;
+    background-color: #00afef;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.button-checkout{
+    margin: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #00afef;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    
+}
+
+.controls-buttons {
+    text-align: center;
+}
+
+.button-empty-icon {
+    color: #00afef;
+    margin-left: 0.8rem;
+    font-size: 1.9rem;
+    position: fixed;
+    bottom: 0.4rem;
+}
