@@ -22,4 +22,4 @@ Contiene listado de productos, detalle de productos (ambos asociados a firebase)
 `react 18.2.0` `firebase 10.11.0` `bootstrap 5.3.3` `react-bootstrap 2.10.2` `react-dom 18.2.0` `react-icons 5.1.0` `react-router-dom 6.22.3` `react-spinners 0.13.8`
 
 ## Contacto
-<a href="https://github.com/Gabonun" target="_blank"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/LinkedIn.svg" width="50" style="margin-right: 20px"/></a>
+<a href="https://www.linkedin.com/in/gabrielnez/" target="_blank"><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/LinkedIn.svg" width="50" style="margin-right: 20px"/></a>
